@@ -1,4 +1,4 @@
-### POC: Kotlin + Spring Boot + Angular 2 + TypeScript
+### Kotlin + Spring Boot + Angular 4 + TypeScript
 
 ```bash
 mvn clean package spring-boot:run
@@ -16,3 +16,8 @@ load and run.
 The frontend stuff gets compiled into the directory specified in the `outDir` parameter of the 
 `angular-cli.json` configuration file. With a Spring Boot web app, we want to stuff it into the
 build's class path, under `/static`.
+
+### Technologies
+https://github.com/eirslett/frontend-maven-plugin
+
+From: https://github.com/mikaelhg
